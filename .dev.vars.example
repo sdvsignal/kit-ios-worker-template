@@ -1,0 +1,7 @@
+# Copy to .dev.vars for `wrangler dev`, and set the same four as secrets for deploys:
+#   npx wrangler secret put APP_STORE_CONNECT_ISSUER_ID   (and the other three)
+# Never commit real values.
+APP_STORE_CONNECT_ISSUER_ID="your-issuer-id"
+APP_STORE_CONNECT_KEY_ID="your-key-id"
+APP_STORE_CONNECT_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nyour .p8 contents\n-----END PRIVATE KEY-----"
+APPLE_ROOT_CERTIFICATES_PEM="Apple root certificates converted to PEM, concatenated"

@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kit-ios-worker-template",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "kv_namespaces": [{ "binding": "RATE_KV" }],
+  "d1_databases": [{ "binding": "DB", "database_name": "kit-ios-backend", "migrations_dir": "migrations" }],
+  "vars": {
+    "ENV_NAME": "template",
+    "RATE_LIMIT_PER_MIN": "60",
+    "ALLOW_EVENT_READ": "false",
+    "STOREKIT_ALLOWED_ENVIRONMENTS": "Sandbox",
+    "STOREKIT_BUNDLE_ID": "com.example.yourapp",
+    "STOREKIT_ALLOWED_PRODUCT_IDS": "com.example.yourapp.pro.monthly,com.example.yourapp.pro.yearly"
+  }
+}

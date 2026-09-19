@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "kit-plugins": { "source": { "source": "github", "repo": "sdvsignal/kit-plugins" } }
+  },
+  "enabledPlugins": { "kit-ship-check@kit-plugins": true },
+  "permissions": {
+    "allow": ["Bash(npm test:*)", "Bash(npm run test:e2e:*)", "Bash(npm run check:*)", "Bash(git status)", "Bash(git diff:*)"],
+    "deny": ["Read(./.dev.vars)", "Bash(npx wrangler secret:*)"]
+  }
+}
