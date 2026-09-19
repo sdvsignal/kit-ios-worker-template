@@ -49,7 +49,13 @@ async function rateLimit(request: Request, env: Env, requestId: string): Promise
   }
   // KV is eventually consistent, so bursts can slip a few requests past the limit. Good enough to
   // stop abuse; use a Durable Object if you need an exact count.
-  await env.RATE_KV.put(key, String(count + 1), { expirationTtl: 120 });
+  // Fail open on the write: the free-tier daily put() cap throws "KV put() limit exceeded for the day",
+  // and a rate limiter must never 500 every request. The read above still enforces existing counts.
+  try {
+    await env.RATE_KV.put(key, String(count + 1), { expirationTtl: 120 });
+  } catch (err) {
+    console.error("KV rate-limit put failed (fail open):", (err as Error)?.message);
+  }
   return null;
 }
 
