@@ -5,6 +5,8 @@ A Cloudflare Worker backend for an iOS app, deployable in one click. It gives yo
 If you searched for a StoreKit 2 Cloudflare Worker template, an App Store Server Notifications V2 webhook, or a
 receipt verification backend for an iOS subscription app, that is what this is.
 
+**Want this wired into your app?** Fixed-price from [Kit](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-ios-worker-template-top): **MCP Basic $199** (one custom MCP tool) · **Build Packet $399** (custom MCP server or Cloudflare Worker, 5 business days). StoreKit metadata side: **ASO Launch Pack $19**.
+
 <!-- dash-content-start -->
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/sdvsignal/kit-ios-worker-template)
