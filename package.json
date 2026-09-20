@@ -17,8 +17,7 @@
     "label": "iOS App Backend",
     "products": ["Workers", "D1", "KV"],
     "categories": ["starter"],
-    "description": "A backend for an iOS app: StoreKit 2 purchase verification and entitlements, failure events logged to D1, and a per-device rate limit.",
-    "publish": true
+    "description": "A backend for an iOS app: StoreKit 2 purchase verification and entitlements, failure events logged to D1, and a per-device rate limit."
   },
   "dependencies": {
     "storekit-cloudflare-workers": "0.2.0"
