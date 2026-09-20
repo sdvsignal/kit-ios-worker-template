@@ -2,6 +2,9 @@
 
 A Cloudflare Worker backend for an iOS app, deployable in one click. It gives you the three things most indie iOS backends end up rebuilding: StoreKit 2 purchase verification, failure events you can actually see, and a rate limit.
 
+If you searched for a StoreKit 2 Cloudflare Worker template, an App Store Server Notifications V2 webhook, or a
+receipt verification backend for an iOS subscription app, that is what this is.
+
 <!-- dash-content-start -->
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/sdvsignal/kit-ios-worker-template)
@@ -55,6 +58,9 @@ StoreKit handling: [storekit-cloudflare-workers](https://github.com/burakdede/st
 ---
 
 **Want this tuned to your repo?** Fixed-price setup from Kit: **Setup Lite $29** (a CLAUDE.md, a tool allowlist and one skill for your repo, back as a PR in 24h) · **Setup Sprint $99** (48h) · **MCP Basic $199** (one custom MCP tool, schema and handoff notes) · **Build Packet $399** (custom MCP server or Cloudflare Worker, 5 business days). Order and scope: [kit-sdvsignal.pages.dev](https://kit-sdvsignal.pages.dev)
+
+Same app needs a store listing? **Preview Pack $149** is one App Store preview video to Apple's spec from your
+screen recordings, plus 5 stills and 2 revision rounds, in 72 hours.
 
 We use AI tools including Claude; a person reviews every deliverable before it ships.
 
