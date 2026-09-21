@@ -97,7 +97,7 @@ and description templates, screenshot storyboard, App Store Connect paste checkl
 $149** is one App Store preview video to Apple's spec from your screen recordings, plus 5 stills and
 2 revision rounds, in 72 hours.
 
-**→ Scope and order: [kit.sdvsignal.com](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-ios-worker-template)**
+**→ Scope and order: [kit.sdvsignal.com](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=gh-readme-kit-ios-worker-template)**
 
 We use AI tools including Claude; a person reviews every deliverable before it ships.
 
