@@ -1,6 +1,6 @@
 # kit-ios-worker-template
 
-![license MIT](https://img.shields.io/badge/license-MIT-3da639) ![tests 5 offline](https://img.shields.io/badge/tests-5%20offline-3da639) ![runs on cloudflare workers](https://img.shields.io/badge/runs%20on-cloudflare%20workers-f38020)
+![license MIT](https://img.shields.io/badge/license-MIT-3da639) ![tests 5 offline](https://img.shields.io/badge/tests-5%20offline-3da639) ![runs on cloudflare workers](https://img.shields.io/badge/runs%20on-cloudflare%20workers-f38020) [![wired into your app $399](https://img.shields.io/badge/wired%20into%20your%20app-$399-1f5f4a)](https://buy.stripe.com/9B600lcsfaTQb5EebDf3a02?client_reference_id=from-gh-badge-ios-worker)
 
 **Every indie iOS subscription app rebuilds the same backend: verify the receipt, catch the webhook,
 see the failures, stop the abuse.** This is that backend, as a Cloudflare Worker you can deploy in
