@@ -115,6 +115,17 @@ We use AI tools including Claude; a person reviews every deliverable before it s
 
 StoreKit handling: [storekit-cloudflare-workers](https://github.com/burakdede/storekit-cloudflare-workers) by Burak Dede, MIT. Independent project, not affiliated with Apple or Cloudflare. "StoreKit" and "App Store" are Apple trademarks; "Cloudflare", "Workers", "D1" are Cloudflare trademarks.
 
+## Questions
+
+Hit a StoreKit verification case this template does not cover? Post it in
+[Discussions](https://github.com/sdvsignal/kit-ios-worker-template/discussions/1). Real answers, no signup.
+
+## Related
+
+- [kit-claude-code-starter](https://github.com/sdvsignal/kit-claude-code-starter) — the full Claude Code setup (CLAUDE.md, allowlist, 3 skills), free
+- [kit-plugins](https://github.com/sdvsignal/kit-plugins) — the same skills as installable Claude Code plugins
+- [kit-one-tool-mcp](https://github.com/sdvsignal/kit-one-tool-mcp) — a working one-tool MCP server sample, 15 tests, no API key
+
 ## License
 
 MIT
