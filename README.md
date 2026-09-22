@@ -1,5 +1,7 @@
 # kit-ios-worker-template
 
+![license MIT](https://img.shields.io/badge/license-MIT-3da639) ![tests 5 offline](https://img.shields.io/badge/tests-5%20offline-3da639) ![runs on cloudflare workers](https://img.shields.io/badge/runs%20on-cloudflare%20workers-f38020)
+
 **Every indie iOS subscription app rebuilds the same backend: verify the receipt, catch the webhook,
 see the failures, stop the abuse.** This is that backend, as a Cloudflare Worker you can deploy in
 one click — StoreKit 2 transaction verification, App Store Server Notifications V2, failure events
