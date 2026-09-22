@@ -26,6 +26,16 @@ receipt verification backend for an iOS subscription app, that is what this is.
 
 <!-- dash-content-end -->
 
+## Want your repo set up for Claude Code first?
+
+The template is MIT and complete. If you want a CLAUDE.md, a tool allowlist and one skill wired for
+*your* repo before you start on the Worker:
+
+**[Buy Setup Lite — $29](https://buy.stripe.com/3cI14pcsf6DA8Xw4B3f3a0a?client_reference_id=from-gh-ios-worker)** · ~24h, handed back as a PR.
+
+Details: [kit.sdvsignal.com/#setup-lite](https://kit.sdvsignal.com/#setup-lite) · wiring this Worker
+into your app is a [Build Packet $399](https://kit.sdvsignal.com/#build-packet).
+
 ## 60-second start
 
 Click **Deploy to Cloudflare** above. It forks the repo, creates the D1 database, applies the
