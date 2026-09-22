@@ -35,8 +35,11 @@ The template is MIT and complete. If you want a CLAUDE.md, a tool allowlist and 
 
 **[Buy Setup Lite — $29](https://buy.stripe.com/3cI14pcsf6DA8Xw4B3f3a0a?client_reference_id=from-gh-ios-worker)** · ~24h, handed back as a PR.
 
-Details: [kit.sdvsignal.com/#setup-lite](https://kit.sdvsignal.com/#setup-lite) · wiring this Worker
-into your app is a [Build Packet $399](https://kit.sdvsignal.com/#build-packet).
+Details: [kit.sdvsignal.com/#setup-lite](https://kit.sdvsignal.com/?utm_source=github&utm_medium=readme&utm_campaign=setup-lite&utm_content=kit-ios-worker-template#setup-lite) · wiring this Worker
+into your app is a [Build Packet $399](https://kit.sdvsignal.com/?utm_source=github&utm_medium=readme&utm_campaign=setup-lite&utm_content=kit-ios-worker-template#build-packet).
+
+Prefer a file to a clone? The [latest release](https://github.com/sdvsignal/kit-ios-worker-template/releases/latest)
+is the same tree as a zip, no git history.
 
 ## 60-second start
 
